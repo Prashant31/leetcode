@@ -1,23 +1,22 @@
 /**
  * Problem # 72
  * Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
- * <p>
+ *
  * You have the following 3 operations permitted on a word:
- * <p>
+ *
  * Insert a character
  * Delete a character
  * Replace a character
+ *
  * Example 1:
  * Input: word1 = "horse", word2 = "ros"
  * Output: 3
- * <p>
  * Explanation:
  * horse -> rorse (replace 'h' with 'r')
  * rorse -> rose (remove 'r')
  * rose -> ros (remove 'e')
- * <p>
+ *
  * Example 2:
- * <p>
  * Input: word1 = "intention", word2 = "execution"
  * Output: 5
  * Explanation:
